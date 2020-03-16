@@ -1,1 +1,1 @@
-document.writeln("<h1>hello world</h1>");
+document.writeln("<h1>Hello world</h1>")
