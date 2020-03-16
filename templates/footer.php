@@ -1,7 +1,7 @@
 
 
 
-<p>this is the footer</p>
+<p>&copy deanwiebe.com</p>
 <script src="script.js"></script>
 </body>
 </html>
