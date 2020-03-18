@@ -4,8 +4,10 @@
 }
 .navbar img{
     float: left;
+    margin-right: -20px;
 }
 .tag-line{
     margin-top: 50px;
+    
 }
 
