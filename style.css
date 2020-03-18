@@ -1,0 +1,11 @@
+.navbar h1{
+    font-size: 1rem;
+    margin: auto;
+}
+.navbar img{
+    float: left;
+}
+.tag-line{
+    margin-top: 50px;
+}
+
