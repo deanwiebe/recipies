@@ -23,7 +23,7 @@
   </div>
 </div>
 </div>
-<div class="filters">
+<div class="filters hide">
     <ul>
       <li><a href="#">Crock Pot</a></li>
       <li><a href="#">Insta Pot</a></li>

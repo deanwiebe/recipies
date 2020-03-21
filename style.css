@@ -59,10 +59,15 @@ ul{
   }
   .filters a{
     color: #ecd696;
+    font-size: 4vw;
   }
   .bottom{
     text-align: right;
     filter: invert(94%) sepia(75%) saturate(543%) hue-rotate(321deg) brightness(100%) contrast(86%);
+  }
+  .hide{
+      height: 0;
+      overflow: hidden;
   }
 
 
