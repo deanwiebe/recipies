@@ -1,13 +1,69 @@
-.navbar h1{
-    font-size: 1rem;
-    margin: auto;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 1.5em;
+    letter-spacing: .2em;
 }
-.navbar img{
-    float: left;
-    margin-right: -20px;
+ul{
+    padding: 0;
+}
+.nav-bar {
+    display: flex;
+    }
+.brand-icon img{
+    width: 20vw;
 }
 .tag-line{
-    margin-top: 50px;
-    
+    align-self: end;
+    padding: 0 20px 0 20px;
 }
+.tag-line h1{
+    font-size: 4vw;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 10vw;
+    height: .4vh;
+    background-color: #ecd696;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-6px, 3px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .filters{
+      background-color: black;
+      border-radius: 20px;
+  }
+  .filters ul{
+      display: flex;
+      flex-direction: column;
+  }
+  .filters li{
+      align-self: center;
+      padding: 20px;
+  }
+  .filters a{
+    color: #ecd696;
+  }
+  .bottom{
+    text-align: right;
+    filter: invert(94%) sepia(75%) saturate(543%) hue-rotate(321deg) brightness(100%) contrast(86%);
+  }
+
+
 
