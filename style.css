@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    padding: 10px;
+    margin: 0 auto;
     font-size: 1.5em;
     letter-spacing: .2em;
 }
@@ -10,6 +10,7 @@ ul{
 }
 .nav-bar {
     display: flex;
+    padding: 10px;
     }
 .brand-icon img{
     width: 20vw;
@@ -48,6 +49,8 @@ ul{
   .filters{
       background-color: black;
       border-radius: 20px;
+      margin: 20px;
+      padding: 20px;
   }
   .filters ul{
       display: flex;
@@ -56,6 +59,7 @@ ul{
   .filters li{
       align-self: center;
       padding: 20px;
+      list-style-type: none;
   }
   .filters a{
     color: #ecd696;
@@ -66,8 +70,33 @@ ul{
     filter: invert(94%) sepia(75%) saturate(543%) hue-rotate(321deg) brightness(100%) contrast(86%);
   }
   .hide{
-      height: 0;
-      overflow: hidden;
+      display: none;
+  }
+
+  footer{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #ecd696;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .container {
+      display: none;
+    }
+    .hide{
+     display: block;
+     background-color: white;
+    }
+    .filters ul{
+        flex-direction: row;
+    }
+    .filters a{
+        font-size: 3vw;
+    }
+    .bottom{
+        display: none;
+    }
   }
 
 
